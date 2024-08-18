@@ -1,0 +1,41 @@
+{
+  "name": "employee_management",
+  "version": "1.0.0",
+  "description": "Employee management using mern stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "Tola Lemma",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "face-api.js": "^0.22.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "pdfkit": "^0.15.0",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@types/dateformat": "^5.0.0"
+  }
+}
